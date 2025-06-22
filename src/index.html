@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-montserrat bg-white">
+  <!-- Top section -->
+  <div class="w-full bg-[#FFF1F1] py-2">
+    <div class="flex flex-col md:flex-row items-center justify-between px-2 md:px-8 gap-2">
+      <img src="assets/gcet_logo.png" alt="" class="w-[140px] md:w-[277px] h-auto max-w-full">
+      <div class="text-base md:text-2xl font-bold text-center px-2">
+         INTERNATIONAL CONFERENCE ON ADVANCES IN SMART ELECTRONICS AND ARTIFICIAL INTELLIGENCE FOR BIOENGINEERING (ICASAIB 2026 ) 
+      </div>
+      <img src="" alt="logo" class="w-[100px] md:w-[240px] h-auto max-w-full mt-2 md:mt-0">
+    </div>
+  </div>
+
+<!-- Navbar -->
+   <nav class="sticky top-0 z-50 w-full bg-[#AD2621] font-montserrat text-white">
+    <div class="flex items-center justify-between px-2 md:px-8 h-[62px]">
+      <!-- Hamburger for mobile -->
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn" class="focus:outline-none" aria-label="Open Menu">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <!-- Desktop menu -->
+      <div id="desktop-menu" class="hidden md:flex h-full w-full min-w-max">
+        <a href="index.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Home</a>
+        <a href="authors.html" class="flex-1 font-medium  text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">For Authors</a>
+        <a href="paper-sub-guidelines.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Paper Submission </a>
+        <a href="speakers.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Speakers</a>
+        <a href="registration.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Registration</a>
+        <a href="committee.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Committee</a>
+           <a href="schedule.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Schedule</a>
+        <a href="venue.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Venue</a>
+      
+        <a href="contact.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Contact Us</a>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden hidden flex-col bg-[#AD2621] w-full">
+      <a href="index.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Home</a>
+      <a href="authors.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">For Authors</a>
+      <a href="paper-sub-guidelines.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Paper Submission </a>
+      <a href="speakers.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Speakers</a>
+      <a href="registration.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Registration</a>
+      <a href="committee.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Committee</a>
+        <a href="schedule.html" class="flex-1 font-medium text-center py-3 transition-all duration-300 hover:font-bold hover:bg-white hover:text-[#AD2621]">Schedule</a>
+      <a href="venue.html" class="text-center py-3 border-b border-white hover:font-bold hover:bg-white hover:text-[#AD2621]">Venue</a>
+    
+      <a href="contact.html" class="text-center py-3 hover:font-bold hover:bg-white hover:text-[#AD2621]">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+   <div class="w-full relative h-[360px] sm:h-[400px] md:h-[492px]">
+    <img class="w-full h-full object-cover absolute top-0 left-0 z-0" src="assets/College_bg.png" alt="">
+    <div class="absolute top-0 left-0 w-full h-full z-10 text-white flex flex-col px-4 sm:px-6 md:px-8 pt-4 md:pt-4 items-start justify-start">
+      <div class="text-xl sm:text-2xl md:text-[24px] font-bold text-[#AD2621] mt-0 leading-tight text-left drop-shadow-lg">
+        INTERNATIONAL CONFERENCE ON ADVANCES<br> IN SMART ELECTRONICS AND ARTIFICIAL INTELLIGENCE<br>FOR BIOENGINEERING (ICASAIB 2026)
+      </div>
+      <div class="text-base sm:text-lg md:text-lg font-medium mt-2 sm:mt-3 text-[#AD2621] md:text-[32px] text-left drop-shadow">21st–22nd August 2026</div>
+      <div class="flex items-center gap-3 sm:gap-4 mt-4 sm:mt-6 text-left">
+        <img src="assets/Group 3.png" alt="" class="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] md:w-[165px] md:h-[165px]">
+        <div class="text-[#AD2621] font-montserrat text-sm sm:text-base md:text-[18px] leading-[18px] sm:leading-[20px]">
+          <span class="font-bold text-red-700">ORGANIZED BY:</span><br>
+          Department of Electronics and <br> Communication Engineering, Galgotias <br>College of Engineering and Technology, <br>Greater Noida-201310
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 w-full sm:w-auto">
+        <div class="px-3 sm:px-5 py-2 sm:py-4 text-xs sm:text-[14px] md:text-[18px] w-full sm:w-[180px] md:w-[218px] h-[40px] sm:h-[56px] md:h-[64px] rounded-[10px] border-2 font-semibold bg-[#AD2621] text-white hover:bg-white hover-[#AD2621] hover:text-[#AD2621] hover:font-extrabold hover:cursor-pointer transition-all duration-300 z-0 text-center flex items-center justify-center">Paper Submission</div>
+        <div class="px-3 sm:px-5 py-2 sm:py-4 text-xs sm:text-[14px] md:text-[18px] w-full sm:w-auto rounded-[10px] border-2 font-semibold bg-[#AD2621] text-white hover:bg-white hover-[#AD2621]   hover:text-[#AD2621] hover:cursor-pointer hover:font-extrabold transition-all duration-300 z-0 text-center flex items-center justify-center">Register Now</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Conference & Date -->
+  <div class="w-full bg-[#FEF4F4] relative font-montserrat py-8 md:py-0">
+    <div class="flex flex-col md:grid md:grid-cols-5 px-4 md:px-8 gap-8">
+      <!-- About Conference (Left) -->
+      <div class="md:col-span-3 flex flex-col justify-center mt-4">
+        <h2 class="text-lg md:text-[24px] font-normal text-[#AD2621]">ABOUT THE CONFERENCE</h2>
+        <p class="text-base md:text-[20px] text-gray-700 leading-[27px] text-justify font-normal mt-4">
+          TThe conference focuses on the seamless integration of smart electronics, artificial intelligence, and computational intelligence to revolutionize healthcare technologies. Its strengths lie in providing a multidisciplinary platform that bridges cutting-edge research and real-world applications, fostering collaboration among academia, industry, and healthcare professionals. Unlike similar events, ICECNH-2026 emphasizes the convergence of hardware innovations with intelligent algorithms tailored specifically for next-generation, patient-centric healthcare solutions.  <br><br>
+          The conference offers unique opportunities to explore emerging technologies such as wearable devices, medical IoT, AI-driven diagnostics, and healthcare robotics under one roof. This comprehensive approach ensures the event’s added value as a catalyst for innovation, knowledge exchange, and impactful partnerships in smart healthcare development.
+        </p>
+      </div>
+      <!-- Timeline / Dates (Right) -->
+      <div class="md:col-span-2 flex flex-col justify-center md:ml-11 mt-8 md:mt-12">
+        <h2 class="text-lg md:text-2xl font-normal text-[#AD2621]">CONFERENCE BEGINS IN</h2>
+        <!-- Countdown Timer -->
+        <div id="countdown-section" class="flex flex-wrap gap-4 md:gap-7 justify-start mt-4">
+          <!-- Days -->
+          <div class="h-16 w-16 md:h-20 md:w-20 rounded-md border-[1.5px] border-[#AD2621] overflow-hidden flex flex-col">
+            <div class="bg-[#AD2621] text-white flex items-center justify-center text-xl md:text-[32px] font-bold h-2/3" id="countdown-days">XX</div>
+            <div class="bg-white text-[#AD2621] text-xs font-medium flex items-center justify-center h-1/3">Days</div>
+          </div>
+          <!-- Hours -->
+          <div class="h-16 w-16 md:h-20 md:w-20 rounded-md border-[1.5px] border-[#AD2621] overflow-hidden flex flex-col">
+            <div class="bg-[#AD2621] text-white flex items-center justify-center text-xl md:text-[32px] font-bold h-2/3" id="countdown-hours">XX</div>
+            <div class="bg-white text-[#AD2621] text-xs font-medium flex items-center justify-center h-1/3">Hours</div>
+          </div>
+          <!-- Minutes -->
+          <div class="h-16 w-16 md:h-20 md:w-20 rounded-md border-[1.5px] border-[#AD2621] overflow-hidden flex flex-col">
+            <div class="bg-[#AD2621] text-white flex items-center justify-center text-xl md:text-[32px] font-bold h-2/3" id="countdown-minutes">XX</div>
+            <div class="bg-white text-[#AD2621] text-xs font-medium flex items-center justify-center h-1/3">Minutes</div>
+          </div>
+          <!-- Seconds -->
+          <div class="h-16 w-16 md:h-20 md:w-20 rounded-md border-[1.5px] border-[#AD2621] overflow-hidden flex flex-col">
+            <div class="bg-[#AD2621] text-white flex items-center justify-center text-xl md:text-[32px] font-bold h-2/3" id="countdown-seconds">XX</div>
+            <div class="bg-white text-[#AD2621] text-xs font-medium flex items-center justify-center h-1/3">Seconds</div>
+          </div>
+        </div>
+        <!-- Important Dates -->
+        <div class="w-full max-w-md text-black">
+          <h3 class="text-lg md:text-[24px] font-normal mt-8 md:mt-10 text-[#AD2621]">IMPORTANT DATES</h3>
+          <ul class="space-y-2 text-base md:text-[20px]">
+            <li><span class="font-normal">Paper Submission Deadline:</span><br> <b>23rd March 2026</b></li>
+            <li><span class="font-normal">Notification of Acceptance:</span><br> <b>2nd April 2026
+          </b></li>
+            <li><span class="font-normal">Camera Ready Submission:</span><br> <b>23rd July  2026</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="w-full h-auto px-1 bg-[#AD2621] font-montserrat text-white pt-8 pb-12">
+    <div class="flex flex-col md:flex-row justify-between px-4 md:px-[24px] gap-8 md:gap-[40px]">
+      <!-- 1. Logo and Contact -->
+      <div class="flex flex-col w-full md:w-2/4">
+        <div class="flex flex-col sm:flex-row items-center sm:items-start">
+          <img src="assets/gcet_footer.png" alt="" class="w-[140px] md:w-[310px] h-auto mt-4 md:mt-[60px] ml-0 md:ml-[24px] max-w-full">
+          
+        </div>
+        <div class="text-white mt-6 md:mt-[27px] ml-0 md:ml-[32px] font-bold text-base md:text-[24px] leading-[27px]">
+          ICASAIB 2026<br>
+          GALGOTIAS COLLEGE OF <br>ENGINEERING AND TECHNOLOGY
+        </div>
+        <div class="mt-6 md:mt-[40px] ml-0 md:ml-[32px]">
+          <div class="text-base md:text-[24px] font-bold mb-2">CONTACT US</div>
+          <div class="text-sm md:text-[20px] leading-[27px]">
+           CONFERENCE CHAIR (ICASAIB 2026),
+            <br/>
+           DEPARTMENT OF ELECTRONICS AND COMMUNICATION (ECE),
+
+            <br>
+            Galgotias College of Engineering and Technology,
+            Knowledge Park II, Greater-Noida, UP 201310, India
+          </div>
+          <div class="flex flex-col md:flex-row mt-6 md:mt-[40px] gap-2">
+            <div class="font-bold text-base md:text-[24px]">
+              EMAIL <span class="text-sm md:text-[20px] font-medium ml-2 md:ml-6">: icasaib2026@galgotiacollege.edu
+</span>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row gap-2 py-y md:py-4">
+            <div class="font-bold text-base md:text-[24px]">
+              PHONE <span class="text-sm md:text-[20px] font-medium ml-2">9412414856, 9953235546, 9871224481
+    </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2. Quick Links -->
+      <div class="w-full md:w-1/3 px-0 md:px-4 pt-8 md:pt-36">
+        <div class="text-xl md:text-[30px] font-bold mb-4 mt-6 md:mt-12">QUICK LINKS</div>
+        <div class="grid grid-cols-2 gap-x-3 text-base md:text-[20px] leading-[35px] font-medium">
+          <ul class="space-y-1 mt-5">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="authors.html" class="hover:underline">For Authors</a></li>
+           
+            <li><a href="committee.html" class="hover:underline">Committee</a></li>
+          </ul>
+          <ul class="space-y-1 mt-5">
+            <li><a href="speakers.html" class="hover:underline">Speakers</a></li>
+            <li><a href="paper-sub-guidelines.html" class="hover:underline">Paper Submission Guidelines</a></li>
+            <li><a href="venue.html" class="hover:underline">Venue</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="mt-6 md:mt-9 flex space-x-4">
+          <a href="#"><img src="assets/fb_footer.png" alt="Facebook" class="w-[28px] md:w-[38px] h-[28px] md:h-[40px]"></a>
+          <a href="#"><img src="assets/twitter_footer.png" alt="Twitter" class="w-[26px] md:w-[36px] h-[26px] md:h-[36px]"></a>
+          <a href="#"><img src="assets/linkedin_footer.png" alt="LinkedIn" class="w-[26px] md:w-[36px] h-[26px] md:h-[37px]"></a>
+        </div>
+      </div>
+      <!-- 3. Map -->
+      <div class="w-full md:w-1/3 px-0 md:px-4 pt-8 md:pt-16">
+        <div class="text-lg md:text-[28px] font-bold mb-3">CONFERENCE VENUE</div>
+        <div class="w-full h-[180px] md:h-[385px]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7439881865093!2d77.49522507574191!3d28.45713287576099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce565f0000001%3A0x548952c90b21eae1!2sGCET!5e0!3m2!1sen!2sin!4v1749258619239!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="rounded-lg shadow-md">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="w-full h-auto py-4 bg-[#FFF1F1] font-montserrat text-base md:text-[22px] font-medium flex items-center justify-center">
+    <span class="text-[#AD2621] text-center">© ICASAIB 2026  • Galgotias College of Engineering and Technology • All rights reserved</span>
+  </div>
+
+  <!-- Navbar script -->
+  <script>
+    // Navbar hamburger
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    // Optional: close mobile menu when clicking a link
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // Countdown
+    const countdownDays = document.getElementById('countdown-days');
+    const countdownHours = document.getElementById('countdown-hours');
+    const countdownMinutes = document.getElementById('countdown-minutes');
+    const countdownSeconds = document.getElementById('countdown-seconds');
+    const targetDate = new Date('Dec 18, 2025 00:00:00').getTime();
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance > 0) {
+        countdownDays.innerText = days;
+        countdownHours.innerText = hours;
+        countdownMinutes.innerText = minutes;
+        countdownSeconds.innerText = seconds;
+      } else {
+        document.getElementById('countdown-section').innerHTML =
+          "<div class='text-center text-[#b71c1c] font-bold text-lg'>Conference has started!</div>";
+      }
+    }
+
+    const countdownInterval = setInterval(updateCountdown, 1000);
+    updateCountdown();
+  </script>
+</body>
+</html>
